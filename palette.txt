@@ -1,0 +1,7 @@
+halloween = [
+2d333b,
+631c03,
+bd561d,
+fa7a18,
+fddf68
+]
