@@ -1,5 +1,8 @@
 import numpy as np
 import pyautogui as pyautogui
+import time
+import random
+
 sqrt3 = np.sqrt(3)
 sqrt5 = np.sqrt(5)
 
@@ -42,6 +45,11 @@ def wind_mouse(start_x, start_y, dest_x, dest_y, G_0=9, W_0=3, M_0=15, D_0=12, m
             move_mouse(current_x:=move_x,current_y:=move_y)
     return current_x,current_y
 
-# pyautogui.PAUSE = 0
+def mylamda(x, y):
+    pyautogui.dragTo(x, y, button='left')
+    # x = random.randrange(2, 3)
+    time.sleep(0.001)
+
+pyautogui.PAUSE = 0
 curX, curY = pyautogui.position()
-wind_mouse(curX, curY, curX+400, curY, move_mouse=lambda x,y: pyautogui.dragTo(x, y, button='left'))
+wind_mouse(curX, curY, curX+400, curY, W_0=7, move_mouse=lambda x,y: mylamda(x,y))
