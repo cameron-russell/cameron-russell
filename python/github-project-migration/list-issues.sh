@@ -10,6 +10,7 @@ query($endCursor: String) {
       items(first:10, after: $endCursor){
         pageInfo{ hasNextPage endCursor }
         nodes{
+          id
           fieldValueByName(name:"Status"){
             __typename
             ... on ProjectV2ItemFieldSingleSelectValue{
@@ -28,5 +29,5 @@ query($endCursor: String) {
       }
     }
   }
-}' | jq | sed 's/^}$/},/g' | sed '1s/^{$/[{/g' | sed '$s/^},$/}]/g' > issues.json
+}' | jq "select(.fieldValueByName.name == \"📋 Backlog\")" | sed 's/^}$/},/g' | sed '1s/^{$/[{/g' | sed '$s/^},$/}]/g' > issues.json
 
