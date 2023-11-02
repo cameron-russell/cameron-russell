@@ -49,4 +49,3 @@ for issue in issues:
             "error processing issue. error: {}, issue: {}".format(e, issue),
             file=sys.stderr
         )
-        
