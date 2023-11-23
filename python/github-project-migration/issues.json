@@ -1,0 +1,4415 @@
+[{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5wDZfM",
+    "number": 721,
+    "title": "IA: Update GTM config for SST in prod"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-MM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5eEP70",
+    "number": 465,
+    "title": "Implement circuit breaker"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9s8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc5ocSUZ",
+    "number": 529,
+    "title": "Spike: Investigate the renewal notifications processing - ERM"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-Jo"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc50xkvo",
+    "number": 785,
+    "title": "Add bundle id processing to boku migration script"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKIqQY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5wLwkX",
+    "number": 727,
+    "title": "Implement the new signOffer endpoint - Service"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-L4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5wK__r",
+    "number": 726,
+    "title": "Implement the new signOffer endpoint - Controller"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-L8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5ySpPd",
+    "number": 750,
+    "title": "Introduce the UMV library into the iTunes app"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjSFg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi850yQYa",
+    "number": 509,
+    "title": "Change oauth token endpoint use for comcast adapter"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKI15o"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5isAxM",
+    "number": 540,
+    "title": "Re-enable failing unit tests"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9sQ"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc51baiw",
+    "number": 603,
+    "title": "Remediate Vulnerability in snappy-java (GA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTGIE"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi851bRNV",
+    "number": 514,
+    "title": "Remediate Vulnerability in snappy-java (CA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTEbs"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc50xmzK",
+    "number": 786,
+    "title": "Implement rollback for boku migration script"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKIq7s"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEdxJF851beha",
+    "number": 505,
+    "title": "Remediate Vulnerability in snappy-java (RA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTHJU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA851jJIK",
+    "number": 2297,
+    "title": "Cache Metrics for PPG (CATs Cache)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVBw8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAkME"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu9s"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85duPTr",
+    "number": 1688,
+    "title": "Add CATS to PPG's health-check results "
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Xw"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85e_XvH",
+    "number": 1697,
+    "title": "Update PPG config to have KUBO test partner in the format KUBO-XX in stable-int"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9XU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85hoMoZ",
+    "number": 1745,
+    "title": "Remove unused regionSpecificDataCentres.conf config override"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Vw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu9c"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEdxJF85xPgd-",
+    "number": 482,
+    "title": "RA: Migrate SAS Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQf20"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc5xPgBh",
+    "number": 578,
+    "title": "GA: Migrate SAS Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQfvk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5xPguR",
+    "number": 740,
+    "title": "IA: Migrate SAS Kafka in NBCU PROD #"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQf9E"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85qQCkj",
+    "number": 1988,
+    "title": "Update AJ repo with the internal version of CDDR account-delete endpoint."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9MY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnWvg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5xIYTU",
+    "number": 1604,
+    "title": "Update PPGNotification model to include partnerTransactionType"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJOfsU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi85yEN_5",
+    "number": 478,
+    "title": "CA: Migrate SAS Kafka in NBCU INT-NFT"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJf6Uo"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85xRTGx",
+    "number": 2179,
+    "title": "PPG: Migrate SAS Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQ8qk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5xPhi2",
+    "number": 702,
+    "title": "AA: Migrate SAS Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQgbk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc5xPedT",
+    "number": 756,
+    "title": "BA: Migrate SAS Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJQfK4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yQhLh",
+    "number": 2203,
+    "title": "Refactor test file AuditServiceSpec and CPOClientSpec"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJi1KY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85tYilt",
+    "number": 2065,
+    "title": "Call CPO resume endpoint in code (with feature switch)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Io"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85XNXKW",
+    "number": 1583,
+    "title": "Check the PPG service routes for any unused endpoints."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9aU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yMFM4",
+    "number": 2201,
+    "title": "Add ACLs for new topic reconcile-partner-entitlement-outcome"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJhxWc"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85z9MhE",
+    "number": 2250,
+    "title": "Rewrite the QueryBuilder format from ??? to named binding"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ759k"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85qMVpD",
+    "number": 1984,
+    "title": "Create an internal version of the CDDR (account-delete) endpoint"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Ms"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85qJb4v",
+    "number": 1981,
+    "title": "Query PPG DB for SAR request endpoint"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9M8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85pe7TN",
+    "number": 1960,
+    "title": "Investigate why partnerSubscriptionLineId in household_id_by_partner_subscription_id is different to the one in failed_notifications"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9O8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85m1qdR",
+    "number": 1913,
+    "title": "Fix truncate job for Summer."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Qo"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85mP4P0",
+    "number": 1897,
+    "title": "Analyse the reports for any inconsistency of data between PPG and ERM."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Q8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85jlcPx",
+    "number": 1799,
+    "title": "Spike: Investigate duplication of records while using record updater"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9To"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85jdA60",
+    "number": 1797,
+    "title": "Update PPG DB for iTunes records - subLineIds replaced with Partner Product Ids"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9UI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85jOdUo",
+    "number": 1791,
+    "title": "Set multiJv boolean to true"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Uc"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5f5IRn",
+    "number": 501,
+    "title": "Configure Renovate for AA"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9sg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85tZAr9",
+    "number": 2067,
+    "title": "Incorrect body in the API spec for /api/account-delete"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Ic"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc5f5LIR",
+    "number": 588,
+    "title": "Configure Renovate for BA"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_94w"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9-Y"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc5f5K6M",
+    "number": 475,
+    "title": "Configure Renovate for GA"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-LI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi850qboW",
+    "number": 505,
+    "title": "Add ACLs for adapter to send kafka messages on PPG notification topic for prod"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKG03o"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc51AThl",
+    "number": 1664,
+    "title": "Boku alert to check 403 status from /bundle/check/info"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKMP5w"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5jtoqP",
+    "number": 660,
+    "title": "getSubsStatus is incorrect for failed billing state"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-OI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5f5FQO",
+    "number": 637,
+    "title": "Configure Renovate for IA"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-OU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-RI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJlInU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc5hRHNp",
+    "number": 595,
+    "title": "getSubscriptionStatus endpoint is not returning the correct status"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_94s"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEdxJF85p46Fl",
+    "number": 444,
+    "title": "Incorrect onHold status is returned by getSubsStatus endpoint"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-SQ"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMrJcs5hCAe9",
+    "number": 392,
+    "title": "Remove old SANDBOX iTunes receipt from DB"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_-k0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5yRnGV",
+    "number": 714,
+    "title": "Add UMC test cert endpoint for zio service"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjGE8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODbFdP85rXUv9",
+    "number": 587,
+    "title": "SAG: Reduce replicas to 3 in Prod"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__os"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yqP71",
+    "number": 2216,
+    "title": "Spike around not to reconcile day passes "
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpDU4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__XU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__Xc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__YI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODbFdP85rXUU5",
+    "number": 586,
+    "title": "SAG: Deploy Banana Scaler to non-Prod"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__aI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__f4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI__gQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLCo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLC8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLDM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLDc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLDw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLEE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBLEo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBQck"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBkH4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBrbk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJDCXs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJDviE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Canary Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJG5IM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJHQp4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJHjgM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85t9vzs",
+    "number": 2083,
+    "title": "Call CPO activate partner product holding endpoint in code (with feature switch)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Hg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps51curS",
+    "number": 893,
+    "title": "Upgrade PA with the latest version of PPC and fix veracode issue"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTZVY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc51ikc7",
+    "number": 1680,
+    "title": "Add pgp encrypt command to EntAuditApp"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKU2hA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJK3gQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJK3jY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85usFei",
+    "number": 2121,
+    "title": "Migrate OVP Kafka in NBCU PROD"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Ec"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJMuIw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJM5hM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJO5Zg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5u1ApI",
+    "number": 705,
+    "title": "Create a draft of the API Spec for the new endpoint for Create a Signature"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJBDBQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJRxYY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJR4Fs"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5xjjlV",
+    "number": 1607,
+    "title": "Move services over to Thanos Prometheus (highly available) instance"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJXW90"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5yQ2JY",
+    "number": 1619,
+    "title": "Spike - Determine correct to approach to maintaining load balance during autoscaling"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJi6pU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJahNU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJamxI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps5yjl5V",
+    "number": 873,
+    "title": "Remove Account Manager service references/links in PA"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnll4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zBpiE",
+    "number": 2222,
+    "title": "Update PPC version in PPG to get the reconciliation block"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJuoQ0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85oEdPL",
+    "number": 1933,
+    "title": "Create new internal notifications endpoint "
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9P4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJdJlU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5x5uTO",
+    "number": 1614,
+    "title": "Spike - Assess optimal values for Kafka producer config (max.in.flight.requests.per.connection)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJdJm0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJfKw8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJhM9I"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJurZA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJtCFo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJs804"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMMY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJi-gM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjEZc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjJgs"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5ySv8J",
+    "number": 752,
+    "title": "Set up private key (in a new kubernetes secret) and key identifier (in config map) for signing the offer"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjTCc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjjUQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJjlqQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJkiRE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJkxvI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJlIno"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yaTLy",
+    "number": 2208,
+    "title": "Update UMV and HKM to use GTM urls"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJlNeU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zMCbN",
+    "number": 2227,
+    "title": "Update cqlmigrator job to address AR10 issue"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxA7A"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJm-LA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJm-2g"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJm-6k"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnETM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnK_E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnWvs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJnrzE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJo4ao"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpFpY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMNk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMOA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMPE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMPM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpMS4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "MDU6SXNzdWU3NzU5NjI2MzA=",
+    "number": 750,
+    "title": "Add new metrics on Kafka notification and REST endpoints"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpy9M"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "MDU6SXNzdWU3NzU5OTAyMjk=",
+    "number": 751,
+    "title": "Bug: Roku upgrade did not cancel the lower tier product"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJpy9k"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJq_ns"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJq_qI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJrGus"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJrMWc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJrnFs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJrzME"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85y3O5m",
+    "number": 2220,
+    "title": "Implement publishing logic based on TPP for Kafka topic with new naming convention."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJsLfg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJs1lc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJs80M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJs81g"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJs818"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJtHwA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJtHw4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJtV9o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJulko"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJurYs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJuwag"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJvC04"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJvUVo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJw7-o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJw7_M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJw7_Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJw7_s"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJw8B8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxB5o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxB6A"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps5zMcff",
+    "number": 879,
+    "title": "Update cqlmigrator job to address AR10 issue"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxIYA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxIqE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxQtU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxWmM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxcp8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxjiw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxy6s"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJxy8s"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJx4ec"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzAIo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzG3s"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzS8Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzS8o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzS_M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzaGY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzaHw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzibc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzibg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzic0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzieU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzifk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzt0Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ06Xc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ1Th4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ1TiE"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zgsXD",
+    "number": 2236,
+    "title": "Add Service trait and make fetchSubscriptionsFromDb common"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ1b-o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ1fEc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ2sUI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ2yz4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ248o"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zoknf",
+    "number": 2239,
+    "title": "Fix truncate job issue"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3LbU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3Siw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3Slk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3SmY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3SnA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3Sn0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3Ysw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3ev8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3ew4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3exk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ3eyM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ4k7k"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ4k8E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ4k8g"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ4k9w"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zv5i4",
+    "number": 2242,
+    "title": "Fix the BOKU TMOBILE-NL activation fail issue due to BA_1404\tProductNotFound"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ4zkk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ41Yk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ5CNc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ5IGQ"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850DQuD",
+    "number": 2252,
+    "title": "use scalafmt to format codebase on compile"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9Wpg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DQI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DQc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DTQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DTs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DUg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DUo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DVI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DV0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DXo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7DX4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7JW4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7KQ8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi850qdw4",
+    "number": 506,
+    "title": "Convert subscription upgrade and cancel to sent to PPG via Kafka"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKG1i0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi85z6QZK",
+    "number": 497,
+    "title": "Persist information when a purchase notification is received"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7KR4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ7-I0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9UJ0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85qQGW-",
+    "number": 1989,
+    "title": "Remove external facing CDDR (account-delete) endpoint."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9ME"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9ULQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9ULY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9gkA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9m40"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ9ucQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ_98c"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ_98o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ_980"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ_-BE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ_-B0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM50O1YX",
+    "number": 736,
+    "title": "Update  the /subscriptionStatus endpoint to include the partnerTransactionId (Amazon Adapter)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJ__CY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAEh8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAKkA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAX3g"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAaaM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAf_E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAlRE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAmGg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKAmJ8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKApHo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKApLw"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85t9yo_",
+    "number": 2084,
+    "title": "Call CPO deactivate partner product holding endpoint in code (with feature switch) "
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9HI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBV0A"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi850VoZn",
+    "number": 500,
+    "title": "polling for entitlements is not working in nbcu useast int-nft"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBcTQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBiJ0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBrM4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps50XePO",
+    "number": 883,
+    "title": "use scalafmt to format codebase on compile"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBy5Q"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKB4Hs"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKCA20"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc50dEFz",
+    "number": 781,
+    "title": "Update the /subscriptionStatus endpoint to include the partnerTransactionId(Boku Adapter)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDLDo"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc50dFM1",
+    "number": 772,
+    "title": "Update the /subscriptionStatus endpoint to include the partnerTransactionId (iTunes Adapter)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDLVs"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc50dGUI",
+    "number": 601,
+    "title": "Update the /subscriptionStatus endpoint to include the partnerTransactionId (Google Adapter)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDLls"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEdxJF850dJvr",
+    "number": 500,
+    "title": "Update the /subscriptionStatus endpoint to include the partnerTransactionId (Roku Adapter)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDMVI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDkt0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKDxg4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKD4_s"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850hXI4",
+    "number": 2261,
+    "title": "Spike for using Redis for storing deciding indicator of reconciliation for Itunes records"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKESqc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDYI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDYc"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOGH7Gi850qRiz",
+    "number": 504,
+    "title": "Add ACLs for adapter to send kafka messages on PPG notification topic for non prod"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGyA4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDZg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDZs"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc50U42A",
+    "number": 779,
+    "title": "Refactor boku migration code"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKBQ04"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM5zXeFJ",
+    "number": 729,
+    "title": "Update Amazon Adapter to identify partner offers in receipts and pass info on to PPG"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzkRg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDbE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDbU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDbg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDbk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDcA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGDcU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGPt8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850oy85",
+    "number": 2266,
+    "title": "Spike around 'Remove old SANDBOX iTunes receipt from PPG DB'"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKGaYw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKG2h0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKG_Q8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKIO-c"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85ylWdv",
+    "number": 2214,
+    "title": "Refactor KafkaAuditProducer in PPG service"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJoFao"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKS89w"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKIjrw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKIpwg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKJB0M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKJB3M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKJIVA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKJIVY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKTzQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKU3s"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKU4M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKU5E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKU68"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKKvEA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKLFaU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKLFbI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM51BBI6",
+    "number": 740,
+    "title": "Amazon adapter restarts in stubbed-nft"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKMbuM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKMf4k"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKMgoE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKMogg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOFT4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOTZ0"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85qpop6",
+    "number": 1995,
+    "title": "Standardise the API headers of PPG service endpoints in Concourse."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOX5A"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOYhA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOYjk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOkTY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5wY7Sm",
+    "number": 1584,
+    "title": "banana scaler still deployed despite change freeze in effect"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJDCXA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKOkVY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu5Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu5c"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu7g"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu7o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu8g"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDODqmabM51bZyg",
+    "number": 744,
+    "title": "Remediate Vulnerability in snappy-java (AA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTF9k"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu8o"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Prod Deployed"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu9M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu90"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu-E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu_A"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKQu_M"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRE_4"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRLxQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRL1E"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRSU8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRioI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRzbk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc51VrSs",
+    "number": 790,
+    "title": "Refactor BokuNotification to set new \"operation\" fields"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRzcA"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKRzeI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKR6Zw"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxn8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc51bcdu",
+    "number": 778,
+    "title": "Remediate Vulnerability in snappy-java (IA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTGmI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc5zXhJs",
+    "number": 595,
+    "title": "Update Google Adapter to identify partner offers in receipts and pass info on to PPG"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJzksg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOE8lREc51b8tn",
+    "number": 792,
+    "title": "Remediate Vulnerability in snappy-java (BA)"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTOLA"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA851cwBx",
+    "number": 2294,
+    "title": "Fix veracode issue in PPG"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTZqI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yJ8H7",
+    "number": 2200,
+    "title": "Update Concourse for PPG endpoints for any missing error codes"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVgeQ"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA851dECc",
+    "number": 2295,
+    "title": "Set-up jumpbox with the required softwares"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTesU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxec"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxe0"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxgk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxg8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxhg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxig"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxis"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxkU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCbus7s50hSU9",
+    "number": 308,
+    "title": "Standardise the API headers of SHMAC service endpoints in Concourse."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKR2PI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85t-Dcc",
+    "number": 2086,
+    "title": "Update ThirdpartyOrder Response handling on PPG side"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9G8"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKTxoM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKU3ow"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKU8KU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKU-C8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOG90dk850hR4X",
+    "number": 230,
+    "title": "Standardise the API headers of CRMG service endpoints in Concourse."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKR2WU"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKU-Dc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVVaM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps50hQtR",
+    "number": 885,
+    "title": "Standardise the API headers of PA service endpoints in Concourse."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKR2Tk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc51sVAH",
+    "number": 1686,
+    "title": "send the final file to sftp server"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXaKo"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA851kFVx",
+    "number": 2300,
+    "title": "SPIKE Investigate how PPG should receive and process retransGated information from Comcast and Boku Adapters"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🏗 In Progress"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVYWg"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVcRg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps51lV9D",
+    "number": 896,
+    "title": "Update Concourse for PA endpoints for any missing error codes"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVlDg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yELf-",
+    "number": 2197,
+    "title": "Publish success message to reconcile-partner-entitlement-outcome topic"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgJf5zw"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85sGyjG",
+    "number": 2030,
+    "title": "Enhance Failed Notification Metric"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgI_9Jk"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVpcY"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Extended Pass"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKVpek"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKWhUo"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKWtmI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Failures"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKW0uE"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKW0w8"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEMvqNc51qjpB",
+    "number": 606,
+    "title": "Update Google Adapter to identify partner offers in receipts and pass info on to PPG"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "✅ Done"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKW93Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXHTc"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXHUI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXO9Y"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXWXY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA8504v4w",
+    "number": 2273,
+    "title": "Implement exclusion logic for ERM data processing"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIA"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850wrpU",
+    "number": 2270,
+    "title": "Call Identity service with houseHoldId for getting email address"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850wnlv",
+    "number": 2269,
+    "title": "Call Entitlement Manager service for getting the entitlement status"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIY"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850wjUv",
+    "number": 2268,
+    "title": "Define a new endpoint in PPG using partnersubcriptionID"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIg"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA850n8kP",
+    "number": 2264,
+    "title": "Return entitlement details to Comcast for Boku bundle IDs"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIk"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85z7WNc",
+    "number": 2249,
+    "title": "Endpoint to provide entitlements for a given householdId"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdIw"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zw4tO",
+    "number": 2245,
+    "title": "Create implicit format in order to not send empty json metadata in AuditEvent"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdI4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zpUHR",
+    "number": 2241,
+    "title": "[Spike] Investigate our usage of ExecutionContext"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdJA"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85zPYIx",
+    "number": 2229,
+    "title": "Boku partner products are out of sync with partner after a same product update"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdJM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85yqXUi",
+    "number": 2217,
+    "title": "Spike for correcting the partnerSubscriptionLineId for Itunes records."
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdJU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOBzTgA85xq3VC",
+    "number": 2188,
+    "title": "Update PARTNER_CANCELLATION event to have a new field called \"partnerTransactionType\""
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdJc"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOB2VXBc5xDTkN",
+    "number": 738,
+    "title": "Integrations tests for the endpoint /api/signOffer"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdL4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOEdxJF851QY-c",
+    "number": 504,
+    "title": "Dependency Dashboard"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdME"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOCMZRps50qHG3",
+    "number": 888,
+    "title": "use scalafmt to format codebase on compile"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdNI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdNc"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc51a1YN",
+    "number": 1677,
+    "title": "Scala app for the entitlement audit"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdOU"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc50ouH8",
+    "number": 1656,
+    "title": "Add partner field to PPGNotifications"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdOw"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5zwBtS",
+    "number": 1647,
+    "title": "Consolidate all metadata fields into one object - NotificationMetadata"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdO4"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5zg-VM",
+    "number": 1644,
+    "title": "Remove KafkaNotificationProducer from PPC"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdPA"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5zV9cM",
+    "number": 1636,
+    "title": "Extend Purchase of PPGNotification model with a new optional field - metadata"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdPI"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc5yEgRx",
+    "number": 1617,
+    "title": "New umc tests for checking the messages published to reconcile-partner-entitlement-outcome topic"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKXdPQ"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYQVM"
+},
+{
+  "content": {
+    "__typename": "Issue",
+    "id": "I_kwDOByKsQc51wogJ",
+    "number": 1687,
+    "title": "Extend PPGNotification to accommodate the retrans value"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "🔖 TODO"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYVKI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYZIM"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYe3Q"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "👀 Needs review"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYkJI"
+},
+{
+  "content": {
+    "__typename": "PullRequest"
+  },
+  "fieldValueByName": {
+    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+    "name": "Testing / Demo"
+  },
+  "id": "PVTI_lADOABU9Qs4AU8gizgKYp7E"
+}]
