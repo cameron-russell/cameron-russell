@@ -30,5 +30,4 @@ query($endCursor: String) {
     }
   }
 }' | jq | sed 's/^}$/},/g' | sed '1s/^{$/[{/g' | sed '$s/^},$/}]/g' > issues.json
-
 #}' | jq "select(.fieldValueByName.name == \"📋 Backlog\")" | sed 's/^}$/},/g' | sed '1s/^{$/[{/g' | sed '$s/^},$/}]/g' > issues.json
