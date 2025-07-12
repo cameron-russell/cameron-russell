@@ -28,12 +28,15 @@ humanClick() {
 }
 
 smallRandWait() {
-    Sleep Random 400, 2000
+    wait := Random 400, 4000 
+    Sleep wait
+    return wait
 }
 
 largeRandWait() {
     wait := Random 20000, 30000
     Sleep wait
+    return wait
 }
 
 maybeMoveMouseAround(max := 0.25) {
@@ -79,22 +82,21 @@ depY := 628
 ^PgDn::
 {
 
-    toggle := !toggle
+    global toggle := !toggle
     
     ; start from an open bank
     ; move mouse over bank first
-    maybeMoveMouseAround()
-    MoveMouse(bankX, bankY, 0.7, 50)
+    ; maybeMoveMouseAround()
+    ; MoveMouse(bankX, bankY, 0.7, 50)
     ; ; hovering over the bank
-    smallRandWait()
-    humanClick() ; bank opened
+    ; smallRandWait()
+    ; humanClick() ; bank opened
 
     loop {
         if not toggle
             break
         ; bank is open here
         smallRandWait()
-        maybeMoveMouseAround()
         ; move mouse to item
         MoveMouse(bankItemX, bankItemY, 0.6)
         smallRandWait()
@@ -103,7 +105,6 @@ depY := 628
         ; close bank
         Send "{ Escape }"
         smallRandWait()
-        maybeMoveMouseAround()
         ; move mouse to invy slot 1
         MoveMouse(invy1X, invy1Y)
         smallRandWait()
@@ -115,13 +116,13 @@ depY := 628
         smallRandWait()
         smallRandWait()
         Send "{Space}"
-        ret := maybeMoveMouseAround(0.9)
-        remaining := 50000 - ret
+        lw := largeRandWait()
+        ret := maybeMoveMouseAround(0.5)
+        remaining := 50000 - ret - lw
         if (remaining > 0) {
             Sleep ret
         }
-        largeRandWait()
-        maybeMoveMouseAround()
+        smallRandWait()
         ; back to bank
         MoveMouse(bankX, bankY, 0.6, 50)
         smallRandWait()
@@ -130,7 +131,7 @@ depY := 628
         MoveMouse(depX, depY)
         smallRandWait()
         humanClick() ;deposit
-        largeRandWait()
-        maybeMoveMouseAround()
+        smallRandWait()
     }
+    Random, OutputVar, 1, 2
 }
