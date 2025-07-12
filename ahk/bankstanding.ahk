@@ -2,6 +2,7 @@ SendMode Input
 SetWorkingDir %A_ScriptDir%
 #include windmouse.ahk
 #SingleInstance Force
+#MaxThreadsPerHotkey 2
 toggle := 0
 
 ;3171, 541 = top left invy 3215, 541 for next
@@ -27,8 +28,7 @@ humanClick() {
 }
 
 smallRandWait() {
-    wait := Random 200, 500
-    Sleep wait
+    Sleep Random 400, 2000
 }
 
 largeRandWait() {
@@ -49,7 +49,7 @@ maybeMoveMouseAround(max := 0.25) {
         loop %elements% {
             Random, rx, -1000, 1000
             Random, ry, -1000, 1000
-            Random, rs, 500, 2000
+            Random, rs, 500, 8000
             xArr.Push(rx)
             yArr.Push(ry)
             sleepArr.Push(rs)
@@ -57,7 +57,7 @@ maybeMoveMouseAround(max := 0.25) {
 
         for i, v IN sleepArr {
             totalSleep += v
-            MoveMouse(xArr[i], yArr[i],,,"R")
+            MoveMouse(xArr[i], yArr[i])
             Sleep v
         }
 
@@ -79,56 +79,58 @@ depY := 628
 ^PgDn::
 {
 
-    global toggle := !toggle
+    toggle := !toggle
+    
     ; start from an open bank
-    ;move mouse over bank first
+    ; move mouse over bank first
     maybeMoveMouseAround()
-    MoveMouse(bankX, bankY, 0.6, 50)
-    ; hovering over the bank
+    MoveMouse(bankX, bankY, 0.7, 50)
+    ; ; hovering over the bank
     smallRandWait()
     humanClick() ; bank opened
 
-    ; loop ;{
-    ;     if not toggle
-    ;         break
-    ;     ; bank is open here
-    ;     smallRandWait()
-    ;     maybeMoveMouseAround()
-    ;     ; move mouse to item
-    ;     MoveMouse(bankItemX, bankItemY, 0.6)
-    ;     smallRandWait()
-    ;     humanClick()
-    ;     smallRandWait()
-    ;     ; close bank
-    ;     Send "{ Escape }"
-    ;     smallRandWait()
-    ;     maybeMoveMouseAround()
-    ;     ; move mouse to invy slot 1
-    ;     MoveMouse(invy1X, invy1Y)
-    ;     smallRandWait()
-    ;     humanClick() ;use item
-    ;     smallRandWait()
-    ;     MoveMouse(invy2X, invy2Y, 1)
-    ;     smallRandWait()
-    ;     humanClick() ; slot 2
-    ;     smallRandWait()
-    ;     Send "{Space}"
-    ;     ret := maybeMoveMouseAround(0.9)
-    ;     remaining := 50000 - ret
-    ;     if (remaining > 0) {
-    ;         Sleep ret
-    ;     }
-    ;     largeRandWait()
-    ;     maybeMoveMouseAround()
-    ;     ; back to bank
-    ;     MoveMouse(bankX, bankY, 0.6, 50)
-    ;     smallRandWait()
-    ;     humanClick()
-    ;     smallRandWait()
-    ;     MoveMouse(depX, depY)
-    ;     smallRandWait()
-    ;     humanClick() ;deposit
-    ;     largeRandWait()
-    ;     maybeMoveMouseAround()
-    ; }
+    loop {
+        if not toggle
+            break
+        ; bank is open here
+        smallRandWait()
+        maybeMoveMouseAround()
+        ; move mouse to item
+        MoveMouse(bankItemX, bankItemY, 0.6)
+        smallRandWait()
+        humanClick()
+        smallRandWait()
+        ; close bank
+        Send "{ Escape }"
+        smallRandWait()
+        maybeMoveMouseAround()
+        ; move mouse to invy slot 1
+        MoveMouse(invy1X, invy1Y)
+        smallRandWait()
+        humanClick() ;use item
+        smallRandWait()
+        MoveMouse(invy2X, invy2Y, 1)
+        smallRandWait()
+        humanClick() ; slot 2
+        smallRandWait()
+        smallRandWait()
+        Send "{Space}"
+        ret := maybeMoveMouseAround(0.9)
+        remaining := 50000 - ret
+        if (remaining > 0) {
+            Sleep ret
+        }
+        largeRandWait()
+        maybeMoveMouseAround()
+        ; back to bank
+        MoveMouse(bankX, bankY, 0.6, 50)
+        smallRandWait()
+        humanClick()
+        smallRandWait()
+        MoveMouse(depX, depY)
+        smallRandWait()
+        humanClick() ;deposit
+        largeRandWait()
+        maybeMoveMouseAround()
+    }
 }
