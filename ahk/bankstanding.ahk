@@ -36,35 +36,32 @@ largeRandWait() {
     Sleep wait
 }
 
-maybeMoveMouseAround(max := 0.9) {
-    ticket := Random 0, 1
+maybeMoveMouseAround(max := 0.25) {
+    Random, ticket, 0.0, 1.0
     totalSleep := 0
-    ; if (true) {
-        elements := Random 2, 6
+    if (ticket <= max) {
+        Random, elements, 2, 6
         xArr := Array()
         yArr := Array()
         sleepArr := Array()
-        indexes := Array()
-        curIdx := 1
         totalSleep := 0
+        
         loop %elements% {
-            rx := Random - 1000, 1000
-            ry := Random - 1000, 1000
-            rs := Random 500, 50000
-            xArr.add(rx)
-            yArr.add(ry)
-            sleepArr.add(rs)
-            indexes.add(curIdx)
-            curIdx++
+            Random, rx, -1000, 1000
+            Random, ry, -1000, 1000
+            Random, rs, 500, 2000
+            xArr.Push(rx)
+            yArr.Push(ry)
+            sleepArr.Push(rs)
         }
 
-        for i, v IN indexes {
-            totalSleep += sleepArr[v]
-            MoveMouse(xArr[v], yArr[v])
-            Sleep sleepArr[v]
+        for i, v IN sleepArr {
+            totalSleep += v
+            MoveMouse(xArr[i], yArr[i],,,"R")
+            Sleep v
         }
 
-    ; ;}
+    }
     return totalSleep
 }
 
@@ -86,10 +83,10 @@ depY := 628
     ; start from an open bank
     ;move mouse over bank first
     maybeMoveMouseAround()
-    ; MoveMouse(bankX, bankY, 0.6, 50)
-    ; ; hovering over the bank
-    ; smallRandWait()
-    ; humanClick() ; bank opened
+    MoveMouse(bankX, bankY, 0.6, 50)
+    ; hovering over the bank
+    smallRandWait()
+    humanClick() ; bank opened
 
     ; loop ;{
     ;     if not toggle
