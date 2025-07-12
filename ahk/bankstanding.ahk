@@ -120,7 +120,7 @@ depY := 628
         ret := maybeMoveMouseAround(0.5)
         remaining := 50000 - ret - lw
         if (remaining > 0) {
-            Sleep ret
+            Sleep remaining
         }
         smallRandWait()
         ; back to bank
