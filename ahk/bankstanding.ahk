@@ -34,7 +34,7 @@ smallRandWait() {
 }
 
 largeRandWait() {
-    wait := Random 20000, 30000
+    wait := Random 8000, 30000
     Sleep wait
     return wait
 }
@@ -122,7 +122,7 @@ depY := 628
         if (remaining > 0) {
             Sleep remaining
         }
-        smallRandWait()
+        largeRandWait()
         ; back to bank
         MoveMouse(bankX, bankY, 0.6, 50)
         smallRandWait()
@@ -133,5 +133,4 @@ depY := 628
         humanClick() ;deposit
         smallRandWait()
     }
-    Random, OutputVar, 1, 2
 }
