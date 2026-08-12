@@ -7,15 +7,15 @@ CoordMode "Mouse", "Client"
 SetMouseDelay -1
 ProcessSetPriority "H"
 
-MoveMouse(x, y, speed := 0.6, randomness := 10, RD := "") {
+MoveMouse(x, y, speed := 0.6, randomness := 10, RD := "", wind := 5) {
     rxRan := Random(-1 * randomness, randomness)
     ryRan := Random(-1 * randomness, randomness)
     x := x + rxRan
     y := y + ryRan
     if (RD == "RD")
-        _goRelative(x, y, speed)
+        _goRelative(x, y, speed, wind)
     else
-        _goStandard(x, y, speed)
+        _goStandard(x, y, speed, wind)
 }
 
 ;---------------------- helpers ------------------------------------------------;
@@ -121,7 +121,9 @@ _WindMouse(xs, ys, xe, ye, gravity, wind, minWait, maxWait, maxStep, targetArea,
         if (oldX != newX) or (oldY != newY)
             MouseMove newX, newY, 0
         c := sleepsArray.Length
-        if (i > c) {
+        if (c = 0) {
+            w := Random(Round(minWait), Round(maxWait))
+        } else if (i > c) {
             w := Random(Round(sleepsArray[c]), Round(sleepsArray[c]) + 1)
         } else {
             w := Random(Round(sleepsArray[i]), Round(sleepsArray[i]) + 1)
@@ -178,13 +180,13 @@ _WindMouse2(xs, ys, xe, ye, gravity, wind, minWait, maxWait, maxStep, targetArea
 
 ;---------------------- movement wrappers --------------------------------------:
 
-_goStandard(x, y, speed) {
+_goStandard(x, y, speed, wind := 5) {
     MouseGetPos &xpos, &ypos
     distance := (Sqrt(_Hypot(x - xpos, y - ypos))) * speed
     dynamicSpeed := (1 / distance) * 60
     finalSpeed := Random(dynamicSpeed, dynamicSpeed + 0.8)
     stepArea := Max((finalSpeed / 2 + distance) / 10, 0.1)
-    newArr := _WindMouse2(xpos, ypos, x, y, 10, 5, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7)
+    newArr := _WindMouse2(xpos, ypos, x, y, 10, wind, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7)
     _SortArray(newArr, "D")
     c := newArr.Length
     g := c // 2
@@ -195,16 +197,16 @@ _goStandard(x, y, speed) {
     newClone := newArr.Clone()
     _SortArray(newClone, "A")
     newArr.Push(newClone*)
-    _WindMouse(xpos, ypos, x, y, 10, 5, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7, newArr)
+    _WindMouse(xpos, ypos, x, y, 10, wind, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7, newArr)
 }
 
-_goRelative(x, y, speed) {
+_goRelative(x, y, speed, wind := 3) {
     MouseGetPos &xpos, &ypos
     distance := (Sqrt(_Hypot(Abs(x), Abs(y)))) * speed
     dynamicSpeed := (1 / distance) * 60
     finalSpeed := Random(dynamicSpeed, dynamicSpeed + 0.8)
     stepArea := Max((finalSpeed / 2 + distance) / 10, 0.1)
-    newArr := _WindMouse2(xpos, ypos, xpos + x, ypos + y, 10, 3, finalSpeed * 10, finalSpeed * 12, stepArea * 11,
+    newArr := _WindMouse2(xpos, ypos, xpos + x, ypos + y, 10, wind, finalSpeed * 10, finalSpeed * 12, stepArea * 11,
         stepArea * 7)
     _SortArray(newArr, "D")
     c := newArr.Length
@@ -216,6 +218,6 @@ _goRelative(x, y, speed) {
     newClone := newArr.Clone()
     _SortArray(newClone, "A")
     newArr.Push(newClone*)
-    _WindMouse(xpos, ypos, xpos + x, ypos + y, 10, 3, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7,
+    _WindMouse(xpos, ypos, xpos + x, ypos + y, 10, wind, finalSpeed * 10, finalSpeed * 12, stepArea * 11, stepArea * 7,
         newArr)
 }

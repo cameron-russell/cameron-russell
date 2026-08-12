@@ -5,16 +5,16 @@
 
 ;========================= CONFIGURABLE CONSTANTS =============================;
 ; Target click area (the "go" click) - PLACEHOLDER: set to your client coords
-TARGET_X_MIN := 513
-TARGET_X_MAX := 522
-TARGET_Y_MIN := 209
-TARGET_Y_MAX := 220
+TARGET_X_MIN := 499
+TARGET_X_MAX := 514
+TARGET_Y_MIN := 233
+TARGET_Y_MAX := 246
 
 ; Gate click area - PLACEHOLDER: set to your client coords
-GATE_X_MIN := 386
-GATE_X_MAX := 393
-GATE_Y_MIN := 206
-GATE_Y_MAX := 212
+GATE_X_MIN := 388
+GATE_X_MAX := 397
+GATE_Y_MIN := 231
+GATE_Y_MAX := 239
 
 ; Idle area - where the mouse drifts to look human
 IDLE_X_MIN := 350
@@ -30,15 +30,52 @@ RESPAWN_TICKS := 22         ; ticks remaining when you respawn before next go ti
 GATE_TICKS := 10            ; ticks for gate passage
 
 ; Behaviour
-SKIP_CHANCE := 12            ; % chance to intentionally miss the go tick
 DRIFT_CHANCE := 40           ; % chance to do an idle mouse drift during waits
 GATE_CLICK_MIN := 4          ; earliest tick after respawn to click gate
 GATE_CLICK_MAX := 7          ; latest tick after respawn to click gate
-EARLY_MIN := 2               ; arrive at target this many ticks early (minimum)
-EARLY_MAX := 5               ; arrive at target this many ticks early (maximum)
+EARLY_MIN := 4               ; arrive at target this many ticks early (minimum)
+EARLY_MAX := 8               ; arrive at target this many ticks early (maximum)
+
+; Session / fatigue / breaks
+SESSION_MIN := 2              ; minimum cycles per session before break
+SESSION_MAX := 5              ; maximum cycles per session
+BREAK_MIN := 2               ; minimum break length (in full cycles = 60 ticks each)
+BREAK_MAX := 5               ; maximum break length (in full cycles)
+
 ;==============================================================================;
 
 toggle := 0
+sessionLength := 0           ; how many cycles in this session
+cyclesInSession := 0         ; current cycle count within session
+consecutiveSuccess := 0      ; consecutive successful go clicks (for skip chance)
+
+; Roll a new session (how many cycles before next break)
+rollSession() {
+    global SESSION_MIN, SESSION_MAX, sessionLength, cyclesInSession
+    sessionLength := Random(SESSION_MIN, SESSION_MAX)
+    cyclesInSession := 0
+}
+
+; Get fatigue factor (0.0 = fresh, 1.0 = exhausted) based on progress through session
+getFatigue() {
+    global cyclesInSession, sessionLength
+    if (sessionLength <= 1)
+        return 0.0
+    return cyclesInSession / sessionLength
+}
+
+; Get skip chance — increases with consecutive successes (probabilistic expiration)
+; Starts at ~5%, ramps up to ~60% after 4-5 in a row
+getSkipChance() {
+    global consecutiveSuccess
+    if (consecutiveSuccess <= 0)
+        return 5
+    if (consecutiveSuccess >= 5)
+        return 100  ; forced break after 5 in a row
+    ; Exponential-ish ramp: 5, 12, 25, 45, 100
+    chances := [5, 12, 25, 45, 100]
+    return chances[consecutiveSuccess]
+}
 
 ; Human-like click with a specific hold duration (ms)
 humanClick(holdMs) {
@@ -53,11 +90,11 @@ maybeDo(percent, callback) {
         callback()
 }
 
-; WindMouse to a random point within a rectangle
-moveToArea(xMin, xMax, yMin, yMax) {
+; WindMouse to a random point within a rectangle at a given speed and wind (overshoot)
+moveToArea(xMin, xMax, yMin, yMax, speed := 0.6, wind := 5) {
     targetX := Random(xMin, xMax)
     targetY := Random(yMin, yMax)
-    MoveMouse(targetX, targetY, 0.6, 0)
+    MoveMouse(targetX, targetY, speed, 0, "", wind)
 }
 
 ; Idle drift - move mouse to a random spot to look human
@@ -70,6 +107,31 @@ idleDrift() {
 waitMs(ms) {
     if (ms > 0)
         Sleep ms
+}
+
+; Wait while making tiny mouse micro-adjustments (human can't hold perfectly still)
+; Nudges 1-2px with smooth relative moves, clamped to stay within the target area
+hoverWait(ms, xMin, xMax, yMin, yMax) {
+    if (ms <= 0)
+        return
+    start := A_TickCount
+    while ((A_TickCount - start) < ms) {
+        remaining := ms - (A_TickCount - start)
+        nextNudge := Random(600, 1800)
+        if (nextNudge > remaining) {
+            Sleep remaining
+            break
+        }
+        Sleep nextNudge
+        ; Get current position and nudge 1-2px, clamped to target bounds
+        MouseGetPos &mx, &my
+        dx := Random(-2, 2)
+        dy := Random(-2, 2)
+        newX := Max(xMin, Min(xMax, mx + dx))
+        newY := Max(yMin, Min(yMax, my + dy))
+        if (newX != mx or newY != my)
+            MouseMove newX, newY, 4  ; speed 4 = slow, smooth built-in move
+    }
 }
 
 ; Pre-roll all random values for one cycle into a Map
@@ -85,32 +147,41 @@ rollCyclePlan() {
     global EARLY_MIN, EARLY_MAX, DRIFT_CHANCE
 
     plan := Map()
+    fatigue := getFatigue()  ; 0.0 = fresh, 1.0 = exhausted
 
-    ; Gate phase: click gate quickly after respawn (2-5 ticks)
+    ; Fatigue slows reactions and mouse speed
+    ; reactionScale: 1.0 (fresh) → 1.8 (tired) — reactions up to 80% slower
+    reactionScale := 1.0 + (fatigue * 0.8)
+    ; speedPenalty: 0.0 (fresh) → 0.15 (tired) — mouse gets slower
+    speedPenalty := fatigue * 0.15
+
+    ; Gate phase: click gate quickly after respawn (4-7 ticks)
     gateClickTick := Random(GATE_CLICK_MIN, GATE_CLICK_MAX)
     plan["gateClickTick"] := gateClickTick
-    plan["gateReaction"] := Random(50, 200)                         ; pause before gate click (ms)
-    plan["gateClickHold"] := Random(80, 180)                         ; gate click hold time (ms)
+    plan["gateReaction"] := Round(Random(50, 200) * reactionScale)    ; fatigue-scaled
+    plan["gateClickHold"] := Round(Random(80, 180) * reactionScale)   ; fatigue-scaled
+    plan["gateSpeed"] := (Random(40, 65) / 100) + speedPenalty        ; slower when tired
+    plan["gateWind"] := Random(5, 12)                                  ; variable overshoot
 
     ; Gate budget = time from respawn to gate click (in ms)
-    ; Known micro-delays that happen right before the click
     plan["gateKnownMs"] := plan["gateReaction"] + plan["gateClickHold"]
     plan["gateBudgetMs"] := gateClickTick * TICK_MS
 
     ; Post-gate phase: wait on other side, then click target at go tick
-    ; Post-gate budget = 22 - gateClickTick = ticks remaining after gate click
     postGateTicks := RESPAWN_TICKS - gateClickTick
     plan["postGateBudgetMs"] := postGateTicks * TICK_MS
 
     ; Target arrival randoms
-    plan["arriveEarly"] := Random(EARLY_MIN, EARLY_MAX)            ; ticks early to arrive at target
-    plan["goReaction"] := Random(0, 500)                          ; pause before go click (ms)
-    plan["goClickHold"] := Random(80, 180)                         ; go click hold time (ms)
-    plan["postGateDrift"] := Random(1, 100) <= DRIFT_CHANCE       ; drift while waiting post-gate?
+    plan["arriveEarly"] := Random(EARLY_MIN, EARLY_MAX)
+    plan["goReaction"] := Round(Random(0, 400) * reactionScale)       ; fatigue-scaled
+    plan["goClickHold"] := Round(Random(80, 180) * reactionScale)     ; fatigue-scaled
+    plan["postGateDrift"] := Random(1, 100) <= DRIFT_CHANCE
+    plan["targetSpeed"] := (Random(55, 85) / 100) + speedPenalty      ; slower when tired
+    plan["targetWind"] := Random(5, 12)                                ; variable overshoot
 
-    ; Target phase: only goReaction is subtracted from the hover budget
-    ; goClickHold happens AFTER the go tick (mousedown = go tick, hold follows)
-    plan["targetKnownMs"] := plan["goReaction"]
+    ; Target phase: goReaction is NOT in the budget — it shifts the click
+    ; within the 0.6s tick window so timing varies each cycle
+    plan["targetKnownMs"] := 0
 
     return plan
 }
@@ -128,6 +199,7 @@ rollCyclePlan() {
     firstStart := A_TickCount
     Sleep Random(0, 500)
     humanClick(Random(80, 180))
+    consecutiveSuccess := 1
     maybeDo(80, idleDrift)
 
     ; Wait for the action to complete + respawn (38 ticks, use elapsed time)
@@ -135,25 +207,26 @@ rollCyclePlan() {
     if (firstWaitMs > 0)
         waitMs(firstWaitMs)
 
+    ; Start first session
+    rollSession()
+    cyclesInSession := 1  ; first iteration counts
+
     ; --- MAIN LOOP: starts at respawn (22 ticks remain in cycle) ---
     loop {
         if not toggle
             break
 
-        ; Pre-roll all random values for this cycle
+        ; Pre-roll all random values for this cycle (fatigue-aware)
         plan := rollCyclePlan()
         cycleStart := A_TickCount
 
         ; 1. SHORT IDLE after respawn, then move to gate and click
-        ;    Gate budget = gateClickTick * TICK_MS (1200-3000ms)
-        ;    Idle first, then move, then click — all within that budget.
-        ;    Reserve ~1200ms for WindMouse + gateKnownMs for reaction/click
         idleBeforeGateMs := plan["gateBudgetMs"] - 1200 - plan["gateKnownMs"]
         if (idleBeforeGateMs > 0)
             waitMs(idleBeforeGateMs)
 
-        ; 2. WINDMOUSE TO GATE then click immediately
-        moveToArea(GATE_X_MIN, GATE_X_MAX, GATE_Y_MIN, GATE_Y_MAX)
+        ; 2. WINDMOUSE TO GATE
+        moveToArea(GATE_X_MIN, GATE_X_MAX, GATE_Y_MIN, GATE_Y_MAX, plan["gateSpeed"], plan["gateWind"])
         Sleep plan["gateReaction"]
         humanClick(plan["gateClickHold"])
 
@@ -161,17 +234,26 @@ rollCyclePlan() {
             break
 
         ; 3. POST-GATE: wait on the other side of the gate
-        ;    We're now through the gate with plenty of time before the go tick.
-        ;    Drift around or idle to look human.
         if (plan["postGateDrift"])
             idleDrift()
 
+        ; SESSION CHECK: if we've completed this session, take a break (after gate, more natural)
+        if (cyclesInSession >= sessionLength) {
+            breakCycles := Random(BREAK_MIN, BREAK_MAX)
+            breakMs := breakCycles * CYCLE_TICKS * TICK_MS
+            waitMs(breakMs)
+            ; Shift cycleStart forward so elapsed-time calculations stay aligned
+            cycleStart += breakMs
+            rollSession()
+            consecutiveSuccess := 0
+            if not toggle
+                break
+        }
+
         ; 4. MOVE TO TARGET (arrive early and hover)
-        ;    Compute how long to wait before moving, using elapsed wall-clock time
         totalBudgetMs := RESPAWN_TICKS * TICK_MS
         arriveEarlyMs := plan["arriveEarly"] * TICK_MS
         elapsedSoFar := A_TickCount - cycleStart
-        ; Wait until it's time to move (total - arriveEarly - targetKnown - elapsed)
         waitBeforeMove := totalBudgetMs - arriveEarlyMs - plan["targetKnownMs"] - elapsedSoFar
         if (waitBeforeMove > 0)
             waitMs(waitBeforeMove)
@@ -180,23 +262,24 @@ rollCyclePlan() {
             break
 
         ; 5. WINDMOUSE TO TARGET
-        moveToArea(TARGET_X_MIN, TARGET_X_MAX, TARGET_Y_MIN, TARGET_Y_MAX)
+        moveToArea(TARGET_X_MIN, TARGET_X_MAX, TARGET_Y_MIN, TARGET_Y_MAX, plan["targetSpeed"], plan["targetWind"])
 
-        ; Hover at target: fill remaining time before go tick
+        ; Hover at target: fill remaining time before go tick (with micro-adjustments)
         elapsedTotal := A_TickCount - cycleStart
         remainMs := totalBudgetMs - elapsedTotal - plan["targetKnownMs"]
         if (remainMs > 0)
-            waitMs(remainMs)
+            hoverWait(remainMs, TARGET_X_MIN, TARGET_X_MAX, TARGET_Y_MIN, TARGET_Y_MAX)
 
         if not toggle
             break
 
-        ; 6. SKIP CHECK - simulate missing the window
-        ;    Both skip and click paths wait until cycleStart + 60 ticks (next respawn)
+        ; 6. SKIP CHECK — probability increases with consecutive successes
         fullCycleMs := CYCLE_TICKS * TICK_MS
+        skipChance := getSkipChance()
 
-        if (Random(1, 100) <= SKIP_CHANCE) {
-            ; Missed it! Idle and wait until next respawn point
+        if (Random(1, 100) <= skipChance) {
+            ; Missed it! Reset consecutive counter, wait for next respawn
+            consecutiveSuccess := 0
             maybeDo(DRIFT_CHANCE, idleDrift)
             skipWaitMs := fullCycleMs - (A_TickCount - cycleStart)
             if (skipWaitMs > 0)
@@ -204,13 +287,14 @@ rollCyclePlan() {
             continue
         }
 
-        ; 7. GO CLICK (reaction + click use pre-rolled durations)
+        ; 7. GO CLICK
         Sleep plan["goReaction"]
         humanClick(plan["goClickHold"])
+        consecutiveSuccess += 1
+        cyclesInSession += 1
         maybeDo(80, idleDrift)
 
         ; 8. Wait for action to complete + respawn
-        ;    Use elapsed time from cycleStart so drift/clicks don't accumulate
         actionWaitMs := fullCycleMs - (A_TickCount - cycleStart)
         if (actionWaitMs > 0)
             waitMs(actionWaitMs)
